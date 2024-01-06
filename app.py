@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
 
 # Load your dataset and save it to a pickle file
-movies_df = pd.read_csv('/Users/mac/Movie_database.csv')
+movies_df = pd.read_csv('Movie_database.csv')
 movies_df.to_pickle("movie_list.pkl")
 
 # Read the DataFrame from the pickle file
